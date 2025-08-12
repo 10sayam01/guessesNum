@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top left, #ff7e5f, #feb47b, #86a8e7);
+  display: grid;
+  place-items: center;
+}
+
+.main-box {
+  width: 400px;
+  height: 60vh;
+  background-color: #ffffffcc; /* white with transparency */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-radius: 20px;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  color: #333;
+}
+
+.userIn{
+    height: 40px;
+    width: 200px;
+}
+.btn{
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.output{
+    height: 80px;
+    
+}
